@@ -38,7 +38,7 @@ from functools import partial
 import random
 
 @st.cache_data # Saves data into a cache facilitates re-run
-def generate_random_value(x): 
+def generate_random_value(x): # Generates a random number
   return random.uniform(0, x) 
 a = generate_random_value(10) 
 b = generate_random_value(20) 
