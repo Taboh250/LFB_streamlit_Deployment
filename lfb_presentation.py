@@ -10,6 +10,7 @@ import os
 import numpy as np
 import pandas as pd
 import collections
+"""
 from sklearn.linear_model import LinearRegression
 from sklearn.feature_selection import RFE
 from sklearn.svm import SVR
@@ -33,6 +34,7 @@ from scipy.stats import randint
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import mutual_info_regression
 from functools import partial
+"""
 import random
 
 @st.cache_data # Saves data into a cache facilitates re-run
