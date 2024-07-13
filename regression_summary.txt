@@ -1,0 +1,34 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     AttendanceTimeSeconds   R-squared:                       1.000
+Model:                               OLS   Adj. R-squared:                  1.000
+Method:                    Least Squares   F-statistic:                 2.959e+26
+Date:                   Fri, 12 Jul 2024   Prob (F-statistic):               0.00
+Time:                           00:57:07   Log-Likelihood:             1.3561e+07
+No. Observations:                 732883   AIC:                        -2.712e+07
+Df Residuals:                     732872   BIC:                        -2.712e+07
+Df Model:                             10                                         
+Covariance Type:               nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+const                              320.4401    2.6e-12   1.23e+14      0.000     320.440     320.440
+CalYear                            1.59e-11   2.65e-12      5.991      0.000    1.07e-11    2.11e-11
+HourOfCall                        4.805e-12   2.64e-12      1.820      0.069    -3.7e-13    9.98e-12
+Easting_rounded                   2.127e-12   2.61e-12      0.814      0.416      -3e-12    7.25e-12
+Northing_rounded                  1.528e-12   2.61e-12      0.585      0.558   -3.59e-12    6.64e-12
+FirstPumpArriving_AttendanceTime -8.296e-10   3.95e-11    -21.024      0.000   -9.07e-10   -7.52e-10
+NumStationsWithPumpsAttending    -5.527e-12   5.11e-12     -1.082      0.279   -1.55e-11    4.48e-12
+NumPumpsAttending                 9.988e-12   5.85e-12      1.708      0.088   -1.48e-12    2.15e-11
+PumpCount                         2.762e-13   3.83e-12      0.072      0.942   -7.22e-12    7.77e-12
+TurnoutTimeSeconds                  52.9558   1.49e-11   3.56e+12      0.000      52.956      52.956
+TravelTimeSeconds                  137.1686   3.83e-11   3.58e+12      0.000     137.169     137.169
+===============================================================================
+Omnibus:                  3725255.956   Durbin-Watson:                    2.000
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):   196813660237506.000
+Skew:                        -228.693   Prob(JB):                          0.00
+Kurtosis:                   80283.278   Cond. No.                          34.7
+===============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
