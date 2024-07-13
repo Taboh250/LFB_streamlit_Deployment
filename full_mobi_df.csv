@@ -1,0 +1,21 @@
+IncidentNumber,CalYear,HourOfCall,ResourceMobilisationId,Resource_Code,PerformanceReporting,DateAndTimeMobilised,DateAndTimeMobile,DateAndTimeArrived,TurnoutTimeSeconds,TravelTimeSeconds,AttendanceTimeSeconds,DateAndTimeLeft,DateAndTimeReturned,DeployedFromStation_Code,DeployedFromStation_Name,DeployedFromLocation,PumpOrder,PlusCode_Code,PlusCode_Description,DelayCodeId,DelayCode_Description
+235138081,2009,0,38426,H271,1,2009-01-01 00:02:27,,2009-01-01 00:07:46,,,319,2009-01-01 00:16:46,2009-01-01 00:23:55,H27,Battersea,Home Station,1,Initial,Initial Mobilisation,,
+235138081,2009,0,38427,H212,2,2009-01-01 00:02:27,2009-01-01 00:06:40,2009-01-01 00:08:09,253.0,89.0,342,2009-01-01 00:12:17,2009-01-01 00:12:17,H21,Clapham,Home Station,2,Initial,Initial Mobilisation,,
+2091,2009,0,38429,A341,1,2009-01-01 00:04:09,2009-01-01 00:06:40,2009-01-01 00:09:17,151.0,157.0,308,2009-01-01 00:16:33,2009-01-01 00:17:48,A34,Edmonton,Home Station,1,Initial,Initial Mobilisation,,
+3091,2009,0,38430,G232,1,2009-01-01 00:04:57,2009-01-01 00:06:45,2009-01-01 00:08:27,108.0,102.0,210,2009-01-01 00:20:38,2009-01-01 00:20:38,G23,Hillingdon,Home Station,1,Initial,Initial Mobilisation,,
+5091,2009,0,38432,A311,1,2009-01-01 00:06:04,2009-01-01 00:07:58,2009-01-01 00:09:57,114.0,119.0,233,2009-01-01 00:11:58,2009-01-01 00:22:29,A31,Holloway,Home Station,1,Initial,Initial Mobilisation,,
+5091,2009,0,38431,A312,2,2009-01-01 00:06:04,2009-01-01 00:08:26,2009-01-01 00:10:14,142.0,108.0,250,,2009-01-01 00:18:53,A31,Holloway,Home Station,2,Initial,Initial Mobilisation,,
+6091,2009,0,38434,A432,1,2009-01-01 00:06:30,2009-01-01 00:07:53,2009-01-01 00:09:22,83.0,89.0,172,2009-01-01 00:15:57,2009-01-01 00:23:10,A43,Kentish Town,Home Station,1,Initial,Initial Mobilisation,,
+6091,2009,0,38435,A431,2,2009-01-01 00:06:30,2009-01-01 00:08:05,2009-01-01 00:10:12,95.0,127.0,222,,2009-01-01 00:22:34,A43,Kentish Town,Home Station,2,Initial,Initial Mobilisation,,
+8091,2009,0,38436,E231,1,2009-01-01 00:13:34,2009-01-01 00:15:33,2009-01-01 00:22:16,119.0,403.0,522,2009-01-01 00:29:12,2009-01-01 00:29:12,E23,East Greenwich,Home Station,1,Initial,Initial Mobilisation,12.0,Not held up
+9091,2009,0,38438,G381,1,2009-01-01 00:14:12,2009-01-01 00:17:10,2009-01-01 00:19:54,178.0,164.0,342,2009-01-01 00:43:10,2009-01-01 00:50:17,G38,Heston,Home Station,1,Initial,Initial Mobilisation,,
+9091,2009,0,38437,G382,2,2009-01-01 00:14:12,2009-01-01 00:17:15,2009-01-01 00:20:01,183.0,166.0,349,,2009-01-01 01:13:52,G38,Heston,Home Station,2,Initial,Initial Mobilisation,,
+10091,2009,0,38439,A271,1,2009-01-01 00:15:41,2009-01-01 00:17:42,2009-01-01 00:19:56,121.0,134.0,255,2009-01-01 00:26:40,2009-01-01 00:29:37,A27,Clerkenwell,Home Station,1,Initial,Initial Mobilisation,,
+11091,2009,0,38440,A231,1,2009-01-01 00:15:42,2009-01-01 00:17:32,2009-01-01 00:20:39,110.0,187.0,297,2009-01-01 00:33:06,2009-01-01 00:37:35,A23,Euston,Home Station,1,Initial,Initial Mobilisation,,
+14091,2009,0,38444,E372,1,2009-01-01 00:18:40,,2009-01-01 00:22:56,,,256,,2009-01-01 00:22:57,E37,Peckham,Home Station,1,Initial,Initial Mobilisation,,
+15091,2009,0,38443,G392,1,2009-01-01 00:19:19,2009-01-01 00:20:31,2009-01-01 00:29:14,72.0,523.0,595,,2009-01-01 00:45:16,G39,Feltham,Home Station,1,Initial,Initial Mobilisation,12.0,Not held up
+21091,2009,0,38445,F282,1,2009-01-01 00:23:11,,2009-01-01 00:24:07,,,56,,2009-01-01 00:41:53,F28,Homerton,Home Station,1,rca,Running call,,
+17091,2009,0,38446,A281,1,2009-01-01 00:24:11,2009-01-01 00:26:20,2009-01-01 00:35:47,129.0,567.0,696,2009-01-01 00:45:00,2009-01-01 00:45:00,A28,Dowgate,Home Station,1,Initial,Initial Mobilisation,5.0,Address incomplete/wrong
+20091,2009,0,38447,A352,1,2009-01-01 00:24:24,2009-01-01 00:27:24,2009-01-01 00:28:23,180.0,59.0,239,,2009-01-01 01:49:28,A35,Enfield,Home Station,1,Initial,Initial Mobilisation,,
+18091,2009,0,38448,E431,1,2009-01-01 00:25:42,2009-01-01 00:27:31,2009-01-01 00:36:51,109.0,560.0,669,,2009-01-01 00:41:57,E43,Beckenham,Home Station,1,Initial,Initial Mobilisation,12.0,Not held up
+22091,2009,0,38449,H361,1,2009-01-01 00:25:46,2009-01-01 00:28:35,2009-01-01 00:30:59,169.0,144.0,313,2009-01-01 00:40:16,2009-01-01 00:45:10,H36,Mitcham,Home Station,1,Initial,Initial Mobilisation,,
