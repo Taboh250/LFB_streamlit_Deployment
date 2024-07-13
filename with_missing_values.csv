@@ -1,0 +1,14 @@
+Feature,percentage NANs
+DateAndTimeLeft,3.501035
+TravelTimeSeconds,1.687622
+TurnoutTimeSeconds,1.685043
+DateAndTimeMobile,1.675015
+NumCalls,0.093794
+DeployedFromLocation,0.034767
+IncGeo_WardCode,0.016428
+IncGeo_WardName,0.016428
+IncGeo_WardNameNew,0.016428
+FirstPumpArriving_DeployedFromStation,0.000478
+DeployedFromStation_Code,0.000287
+DeployedFromStation_Name,0.000287
+FirstPumpArriving_AttendanceTime,0.000191
