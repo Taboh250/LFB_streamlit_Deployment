@@ -10,31 +10,6 @@ import os
 import numpy as np
 import pandas as pd
 import collections
-"""
-from sklearn.linear_model import LinearRegression
-from sklearn.feature_selection import RFE
-from sklearn.svm import SVR
-import matplotlib.pyplot as plt
-import statsmodels.api as sm
-from fancyimpute import IterativeImputer # for imputation(e.g MICE)
-from sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Ridge, RidgeCV, Lasso # for penalised regression and feature engineering
-from sklearn.linear_model import LassoCV
-from sklearn.preprocessing import StandardScaler
-import seaborn as sns
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, ConfusionMatrixDisplay
-from sklearn.model_selection import RandomizedSearchCV, train_test_split
-from scipy.stats import randint
-from sklearn.feature_selection import SelectKBest
-from sklearn.feature_selection import mutual_info_regression
-from functools import partial
-"""
 import random
 
 @st.cache_data # Saves data into a cache facilitates re-run
