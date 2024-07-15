@@ -42,7 +42,7 @@ elif page == pages[1] :
     st.write("### Data Exploration")
     
     st.write("#### Difficulties encountered")
-    st.write("The size of the data was a major problem to me because of my limited computational resources.I tried imputation techniques such as the KNN waand it failed due to limited resources(Memory error) . After displaying the tables of both the incident and mobilisation data frames, i noticed the intersections of three columns: the 'IncidentNumber', 'CalYear' and 'HourOfCall'. The IncidentNumber being the unique identifier of cases was later used for merging both data frames. ")
+    st.write("The size of the data was a major problem to me because of my limited computational resources.I tried imputation techniques such as the KNN and it failed due to limited resources(Memory error) . After displaying the tables of both the incident and mobilisation data frames, i noticed the intersections of three columns: the 'IncidentNumber', 'CalYear' and 'HourOfCall'. The IncidentNumber being the unique identifier of cases was later used for merging both data frames. ")
     st.write("##### Displaying the merged mobilisation dataframe.")
     # File uploader
     uploaded_file = st.file_uploader("full_mobi_df.csv", type=['csv', 'xlsx'])
@@ -185,7 +185,7 @@ elif page == pages[4]:
     st.write(" For the pridictors/independent variables, the shape of the train data:__(732883, 10)__ and \nshape of test data: __(314093, 10)__ \n  ")
     st.write("For the target/dependent variable,the shape of the train data:__(732883)__ and \nshape of test data: __(314093)__ \n  ")
     st.write("The predictors were standardised and then followed by the creation of the model")
-    st.write("After the model's creation, the model was tested by plotting actual vavlues of __AttendanceTimeSeconds__ from the test data set against the predicted values of __AttendanceTimeSeconds__ from the trained model. Below is a diagram of the plot.")
+    st.write("After creating the model creating, the model was tested by plotting actual vavlues of __AttendanceTimeSeconds__ from the test data set against the predicted values of __AttendanceTimeSeconds__ from the trained model. Below is a diagram of the plot.")
     st.image("r_sqr_lm.png")
     st.write("The R-sqr score of this lm is 1.0 meaning that the model has learned the relationship between the features and the target variable so well that it can predict the target variable for the training instances with 100% accuracy")
     st.write("The train score is 1 : meaning that the model has learned the relationship between the features and the target variable so well that it can predict the target variable for the training instances with 100% accuracy.")
@@ -232,12 +232,12 @@ elif page == pages[4]:
 # Page 4: Conclusion
 elif page == pages[5]:
     st.write("### Conclusion")
-    st.write("I used several approaches to to identify features that best predict the attendance time.  ")
+    st.write("I used several approaches to identify features that best predict the attendance time.  ")
     st.write("These features are __CalYear, 'FirstPumpArriving_AttendanceTim, 'TurnoutTimeSecon and 'TravelTimeSecc.__")
     st.write("Linear regression shows that the two outstanding contributors are the __turnout time__ and even more importantly the __travel time__.")
     st.write("The travel time in turn has a correlation with the attendance time of the first arriving pump.")
     st.write("The travel time can hence be prioritised for action. This can be done by putting in place machanisms to enable LFB to deploy a team to the incidence zones on time")
-    st.write("The Gonernment can consider investing in the creation of drones that can help in fire fighting.")
+    st.write("The Government can consider investing in the creation of drones that can help in fire fighting.")
     st.write("##### Thanks for your attention")
     st.write("Auf Wiedersehen")
     st.write("Au revoir")
